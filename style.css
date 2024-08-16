@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  
+    width: 700px;
+    background-color: #ecf0f1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 400px;
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.guessheading h2{
+    font-size: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guessbox{
+    font-size: 30px;
+    color: white;
+    background-color:#d63031;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.again{
+    padding: 10px 40px;
+    background-color: #e74c3c;
+    color:white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.guessheading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.guessbox{
+    width: 160px;
+    margin-top: 10px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid black;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    position: relative;
+    top: 90px;
+    justify-content: space-between;
+}
+.check{
+    margin-top: 4px;
+    padding: 5px 40px;
+}
+
+
+
